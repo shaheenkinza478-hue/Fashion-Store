@@ -97,10 +97,10 @@ const Button: React.FC<ButtonProps> = ({
   };
 
   // Click Handler
-  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleClick = (e: any) => {
     setIsClicked(true);
     setTimeout(() => setIsClicked(false), 200);
-    onClick?.(e as any);
+    onClick?.();
   };
 
   // Get font class based on size

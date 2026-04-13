@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <footer className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white  overflow-hidden">
       {/* Animated Background Elements - Matching dark theme */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 ">
         <div className="absolute top-0 left-0 w-96 h-96 bg-pink-600/5 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-pink-700/5 rounded-full blur-3xl animate-pulse delay-1000"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-500/5 rounded-full blur-3xl animate-float"></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 py-12">
+      <div className="relative max-w-7xl mx-auto px-4 py-12 ml-10 mr-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About - Dark theme optimized */}
           <div className="group">
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links - Dark theme optimized */}
-          <div className="group">
+          <div className="group ">
             <h4 className="font-serif text-lg font-bold tracking-wide mb-4 relative inline-block text-white">
               Quick Links
               <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-pink-500 group-hover:w-full transition-all duration-500"></span>
